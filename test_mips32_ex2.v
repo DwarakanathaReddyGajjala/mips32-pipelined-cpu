@@ -1,5 +1,5 @@
 
-module test_mips32;
+module test_mips32_ex2;
 
     reg clk1, clk2;
     integer k;
@@ -55,3 +55,4 @@ module test_mips32;
     end
 
 endmodule
+
