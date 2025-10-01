@@ -1,2 +1,2 @@
 # mips32-pipelined-cpu
-Design and simulation of a 5-stage pipelined MIPS32 CPU in Verilog, supporting arithmetic, memory, and branch instructions.
+This project implements a 5-stage pipelined MIPS32 processor in Verilog, featuring the classic stages: instruction fetch, decode, execute, memory, and write-back. The design supports arithmetic, logical, memory, and branch instructions, and includes a 32-register file along with 1KB of memory. Multiple testbenches demonstrate arithmetic operations, load/store instructions, and factorial computation using control flow. The processor can be simulated with Icarus Verilog and analyzed in GTKWave, offering a clear and practical framework for learning pipelined CPU architecture and hardware design in Verilog HDL.
