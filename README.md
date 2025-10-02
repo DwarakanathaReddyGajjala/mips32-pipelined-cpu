@@ -42,7 +42,7 @@ vvp mips32
 iverilog -o mips32 pipe_MIPS32.v test_mips32_ex2.v
 vvp mips32
 ```
-Option 2: Online with EDA Playground
+### Option 2: Online with EDA Playground
 1.  Go to [EDA Playground](https://www.edaplayground.com/)  
 2. Paste the code from pipe_MIPS32.v and your testbench (test_mips32_ex1.v or test_mips32_ex2.v).
 3. Select Icarus Verilog (iverilog) as the simulator.
