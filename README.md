@@ -1,7 +1,6 @@
 # mips32-pipelined-cpu
 
-##  Pipelined MIPS32 Processor (Verilog HDL)
-
+##  Overview
 This project implements a pipelined processor for a subset of the **MIPS32 Instruction Set Architecture (ISA)** in Verilog HDL.  
 
 The design follows the classic five-stage datapath:  
